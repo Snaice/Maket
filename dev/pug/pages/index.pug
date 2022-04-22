@@ -5,6 +5,7 @@ block variables
 	- var pageClass = 'index-page'
 
 block content
+
 	hr
 
 	.intro
@@ -20,3 +21,34 @@ block content
 	
 	.manImg
 		img(src="/static/img/content/man.png", alt="Мужик")
+
+	.about
+		h2 About me
+		.about_items
+			.about_item
+				p.about_text Hi, I'm Denis – UX/UI designer from Minsk.
+				p.about_text I'm interested in design and everything connected with it.
+			.about_item
+				p.about_text I'm studying at courses "Web and mobile design interfaces" in IT-Academy.
+			.about_item
+				p.about_text Ready to implement excellent projects with wonderful people.
+	.skills
+		h2 Skills
+		p.skills_text I work in such programs as
+		.skills_items
+			.skills_item
+				img(src="static/img/content/ph.png", alt="Photoshop")
+				p Adobe Photoshop
+				img(src="static/img/content/ph_star.png", alt="Stars")
+			.skills_item
+				img(src="static/img/content/ai.png", alt="Illustrator")
+				p Adobe Illustrator
+				img(src="static/img/content/ai_star.png", alt="Stars")
+			.skills_item
+				img(src="static/img/content/ae.png", alt="After Affects")
+				p Adobe After Affects
+				img(src="static/img/content/ae_star.png", alt="Stars")
+			.skills_item
+				img(src="static/img/content/fg.png", alt="Figma")
+				p Figma
+				img(src="static/img/content/fg_star.png", alt="Stars")
